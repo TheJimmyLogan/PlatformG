@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Metaverse</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
+
+
+        .blue-circle {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+
+            background: #6DC6D7;
+            opacity: 0.5;
+            filter: blur(150px);
+        }
+
+        .violet-circle {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+
+            background: #903EE9;
+            filter: blur(150px);
+        }
+
+        .pink-circle {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+
+            background: #D34A86;
+            filter: blur(150px);
+        }
+
+        * {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            scroll-behavior: smooth;
+            /* outline: solid 1px white; */
+        }
+
+        .flexing {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body class="bg-[#19173E]">
+    <main id="start" class="container m-auto">
+        <div class="flex flex-wrap justify-center items-center p-10 gap-y-8 gap-x-4 relative">
+
+            <div class="blue-circle left-0"></div>
+
+            <img class="cursor-pointer" src="./img/svg/logo.svg" alt="">
+
+            <ul
+                class="flex flex-1 justify-center flex-wrap min-w-[300px] text-[22px] gap-12 text-[#fff] cursor-pointer">
+                <li>About</li>
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>Contacts</li>
+            </ul>
+            <button class="block p-1 text-[22px] cursor-pointer rounded-full 
+        bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500">
+                <span class="bg-[#19173E] px-10 py-4 rounded-full block text-[#fff] ">
+                    Contacts
+                </span>
+            </button>
+        </div>
+
+        <section class="flex flex-wrap justify-end p-10 ">
+            <img class="flex-1" src="./img/svg/world.svg" alt="">
+
+            <div class="flex justify-end items-end flex-col gap-5 max-w-[450px] ">
+                <h3 class="text-[21px] text-[#fff] text-right">
+                    PlatformG provides a technology and this technology is one of the best
+                    and amazing idea!.
+                </h3>
+                <button class="block p-1 text-[22px] cursor-pointer rounded-full 
+            bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500">
+                    <span class="bg-[#19173E] px-10 py-4 rounded-full flex gap-4 text-[#fff] ">
+                        Let's Go
+                        <img class="w-[30px]" src="./img/svg/arrow.svg" alt="">
+                    </span>
+                </button>
+
+            </div>
+        </section>
+
+        <div class="flex justify-center relative my-20">
+            <div class="violet-circle left-0"></div>
+            <img class="flex-1" src="./img/svg/frame.svg" alt="">
+            <img class="absolute h-[95%] bottom-0 hover:h-[100%] transition-all" src="./img/pics/man.png" alt="">
+        </div>
+
+        <div class="flex justify-center p-10 flex-wrap ">
+            <div class="w-1/2 p-10 min-w-[300px]">
+                <img src="./img/pics/vrs.png" alt="">
+            </div>
+            <div class="flex items-center justify-center w-1/2 p-2 min-w-[300px]">
+                <img src="./img/svg/frame2.svg" alt="">
+            </div>
+            <div class="blue-circle -z-10 right-0 w-[500px] "></div>
+        </div>
+
+        <div class="flex justify-center p-10 flex-wrap relative">
+            <div class="w-1/2 p-8 min-w-[300px]">
+                <img class="rounded-3xl" src="./img/pics/vr.png" alt="">
+            </div>
+            <div class="flex flex-col items-start justify-center gap-11 w-1/2 p-10 min-w-[300px]">
+                <h1 class="text-3xl text-[#fff] text-center md:text-5xl md:text-left">Creating Augmented Reality Apps
+                    Has Never Been
+                    So
+                    Convenient</h1>
+                <p class="text-[#fff] text-lg">The PlatformG system lets developers, and inexperienced creators, use
+                    cutting-edge AR
+                    technologies to
+                    create immersive AR experiences across a broad range of domains</p>
+                <button class="block p-1 text-[22px] cursor-pointer rounded-full 
+                    bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500">
+                    <span class="bg-[#19173E] px-10 py-4 rounded-full flex gap-4 text-[#fff] ">
+                        Learn More
+                        <img class="w-[30px]" src="./img/svg/arrow.svg" alt="">
+                    </span>
+                </button>
+            </div>
+            <div class="pink-circle left-0 top-0 -z-10"></div>
+
+        </div>
+
+
+        <h1 class="text-[48px] text-center text-[#fff] my-12">Unique Features of The PlatformG</h1>
+
+
+        <div class="flex gap-9 flex-wrap">
+            <div class="flex-1 p-1 text-[22px] cursor-pointer
+                        bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500">
+                <span class="bg-[#19173E] p-8 flex gap-4 text-[#fff] flex-col items-center h-full">
+                    <img class="w-[90px]" src="./img/svg/pic1.svg" alt="">
+                    <h1 class="text-[24px] text-center">Style with CSS</h1>
+                    <p class="text-center text-lg">Since our templates are HTML-based you can
+                        utilize all
+                        the
+                        features and the
+                        flexibility of CSS to
+                        style your app. This way we make
+                        sure that your AR
+                        App is WebAR ready.</p>
+                </span>
+
+            </div>
+            <div class="flex-1 p-1 text-[22px] cursor-pointer
+                        bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500">
+                <span class="bg-[#19173E] p-8  flex gap-4 text-[#fff] flex-col items-center h-full">
+                    <img class="w-[90px]" src="./img/svg/pic2.svg" alt="">
+                    <h1 class="text-[24px] text-center">Multi Platform Support</h1>
+                    <p class="text-center text-lg">Apps created with our system run on iOS or Android devices using the
+                        same
+                        codebase and styling. This drastically lowers app development effort, cost, and time.</p>
+                </span>
+            </div>
+            <div class="flex-1 p-1 text-[22px] cursor-pointer
+                        bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500">
+                <span class="bg-[#19173E] p-8  flex gap-4 text-[#fff] flex-col items-center h-full">
+                    <img class="w-[90px]" src="./img/svg/pic3.svg" alt="">
+                    <h1 class="text-[24px] text-center">Web-Browser Support</h1>
+                    <p class="text-center text-lg"> JavaScript port of our rendering engine and our HTML-based front
+                        end,
+                        almost
+                        all applications come with a web version. This simplifies development, debugging,and
+                        testing.
+                    </p>
+                </span>
+            </div>
+
+        </div>
+
+        <div class="flex justify-center flex-col items-center gap-10 mb-5">
+            <h1 class="text-[48px] text-[#fff] mt-20">FAQs</h1>
+            <section class="flex flex-col w-full px-4 md:px-0">
+                <div class="flexing flex items-center border-b-[1px] border-slate-600 py-10">
+                    <h1 class="text-[#fff] text-2xl flex-1">What is different of VR and AR?</h1>
+
+                    <button class="block p-[3px] text-[22px] cursor-pointer rounded-full 
+            bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 hover:scale-110">
+                        <span class="items-center bg-[#19173E] p-4 rounded-full flex gap-4 text-[#fff] ">
+                            <img src="./img/svg/bottom-arrow.svg" alt="">
+                        </span>
+                    </button>
+                </div>
+                <div class="flexing flex items-center border-b-[1px] border-slate-600 py-10">
+                    <h1 class="text-[#fff] text-2xl flex-1">Where I can find developers to hire?</h1>
+
+                    <button class="block p-[3px] text-[22px] cursor-pointer rounded-full 
+            bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 hover:scale-110">
+                        <span class="items-center bg-[#19173E] p-4 rounded-full flex gap-4 text-[#fff] ">
+                            <img src="./img/svg/bottom-arrow.svg" alt="">
+                        </span>
+                    </button>
+                </div>
+                <div class="flexing flex items-center border-b-[1px] border-slate-600 py-10">
+                    <h1 class="text-[#fff] text-2xl flex-1">How long to make AR apps?</h1>
+
+                    <button class="block p-[3px] text-[22px] cursor-pointer rounded-full 
+            bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 hover:scale-110">
+                        <span class="items-center bg-[#19173E] p-4 rounded-full flex gap-4 text-[#fff] ">
+                            <img src="./img/svg/bottom-arrow.svg" alt="">
+                        </span>
+                    </button>
+                </div>
+                <div class="flexing flex items-center border-b-[1px] border-slate-600 py-10">
+                    <h1 class="text-[#fff] text-2xl flex-1">Who’s the one i should contact for error apps?</h1>
+
+                    <button class="block p-[3px] text-[22px] cursor-pointer rounded-full 
+            bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 hover:scale-110">
+                        <span class="items-center bg-[#19173E] p-4 rounded-full flex gap-4 text-[#fff] ">
+                            <img src="./img/svg/bottom-arrow.svg" alt="">
+                        </span>
+                    </button>
+                </div>
+            </section>
+        </div>
+
+        <div class="flex justify-center mt-28">
+            <button class="block p-1 text-[22px] cursor-pointer rounded-full 
+            bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500">
+                <span class="bg-[#19173E] px-20 py-4 rounded-full flex gap-4 text-[#fff] ">
+                    See More
+                </span>
+            </button>
+        </div>
+
+        <div class="flex-1 p-1 mt-24 text-[22px] cursor-pointer
+                        bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500">
+            <span class="bg-[#19173E] p-8 flex gap-4 text-[#fff] flex-col items-center h-full">
+
+                <h1 class="text-[24px] text-center max-w-[700px] md:text-[48px]">Create Your Augmented Reality App Now
+                </h1>
+                <p class="text-center text-lg"> Don't hesitate any longer and try our unique system to create your
+                    professional AR experience!
+                </p>
+                <button class="block p-1 text-[22px] cursor-pointer rounded-full 
+                    bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500">
+                    <span class="bg-[#19173E] px-10 py-4 rounded-full flex gap-4 text-[#fff] ">
+                        Try For Free
+                        <img class="w-[30px]" src="./img/svg/arrow.svg" alt="">
+                    </span>
+                </button>
+            </span>
+        </div>
+
+        <div class="my-24 flex gap-8 text-white flex-wrap justify-center">
+            <div class="flex flex-col gap-6">
+                <h4 class="text-white text-2xl text-center sm:text-left">Subscribe for Updates and News</h4>
+                <div class="flex flex-col items-center gap-2 sm:flex-row ">
+                    <input
+                        class="rounded-full text-white px-10 py-5 sm:rounded-none sm:rounded-l-full bg-[#19173E] border-2 border-slate-600"
+                        type="text" placeholder="Enter Your email">
+                    <button class=" sm:-ml-8 block p-1 text-[22px] cursor-pointer rounded-full 
+                        bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500">
+                        <span class="bg-[#19173E] px-10 py-4 rounded-full flex gap-4 text-[#fff] ">
+                            Contacts
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="flex flex-col gap-6 ">
+                <h4 class=" text-2xl">Contacts</h4>
+                <div class="flex flex-col gap-4">
+                    <a href="#" class="text-slate-400">Imprint</a>
+                    <a href="#" class="text-slate-400">Blog</a>
+                </div>
+            </div>
+            <div class="flex flex-col gap-6 ">
+                <h4 class=" text-2xl">Terms of Use</h4>
+                <div class="flex flex-col gap-4">
+                    <a href="#" class="text-slate-400">Privacy Policy</a>
+                    <a href="#" class="text-slate-400">Solutions</a>
+                </div>
+            </div>
+            <div class="flex flex-col gap-6 ">
+                <h4 class=" text-2xl">Follow us on</h4>
+                <div class="flex gap-4">
+                    <a href="#"><img src="./img/svg/social/linkedin.svg" alt=""></a>
+                    <a href="#"><img src="./img/svg/social/insta.svg" alt=""></a>
+                    <a href="#"><img src="./img/svg/social/fb.svg" alt=""></a>
+                    <a href="#"><img src="./img/svg/social/yt.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <h1 class=" text-white my-6 text-center">Copyright
+            2022. PlatformG. All right reserved</h1>
+
+        <div class="fixed z-10 -left-2 bottom-24 -rotate-90 sm:left-1">
+            <a href="#start" class="block p-1 text-[22px] cursor-pointer rounded-full 
+        bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500">
+                <span class="bg-[#19173E] px-4 py-4 rounded-full block text-[#fff] ">
+
+                    <img class="w-[50px]" src="./img/svg/arrow.svg" alt="">
+                </span>
+            </a>
+        </div>
+
+    </main>
+</body>
+
+</html>
